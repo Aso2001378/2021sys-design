@@ -1,3 +1,4 @@
+```uml
 @startuml
 start
 :起きる;
@@ -8,3 +9,4 @@ if(眠い？)
 else
 :二度寝する;
 @enduml
+```
