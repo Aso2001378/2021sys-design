@@ -1,11 +1,13 @@
 ```uml
 @startuml
 start
-:体力=10;
-if(体力<=20)
-:宿屋に泊まる;
-else
-:頑張ってレベル上げる;
-endif
+
+if (Graphviz installed?) then (yes)
+  :process all\ndiagrams;
+else (no)
+  :process only
+  __sequence__ and __activity__ diagrams;
+end
+stop
 @enduml
 ```
