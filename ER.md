@@ -1,4 +1,4 @@
-entity"顧客マスク"as customer <m_customers>
+entity "顧客マスク" as customer <m_customers>
 <<M,MASTER_MARK_CORE>>{
   + customer_code [PK]
   --
