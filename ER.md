@@ -1,5 +1,5 @@
 entity "顧客マスク" as customer <m_customers>
-<<M,MASTER_MARK_CORE>>{
+<<M,MASTER_MARK_COLOR>>{
   + customer_code [PK]
   --
 pass
